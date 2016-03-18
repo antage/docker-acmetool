@@ -16,7 +16,6 @@ RUN apt-get update \
 	&& rm -r /root/.gnupg/ \
 	&& chmod +x /usr/local/bin/gosu
 
-EXPOSE 4402
 ENV LANG=C
 
 COPY acmetool /usr/local/bin/

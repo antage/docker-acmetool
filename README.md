@@ -10,11 +10,12 @@ in `/usr/local/bin/` path. The container is tagged as `acmetool`.
 
 ## Exposed ports
 
-* 4402/tcp (used in proxy mode)
+None.
 
 ## External directories
 
 * `/var/lib/acme`
+* `/usr/lib/acme/hooks` (useless)
 
 ## Environment variables
 
